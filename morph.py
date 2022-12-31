@@ -1,11 +1,11 @@
 from unicodedata import normalize
 
 CONSONENT_ENDING_PARTICLES = {
-  '이', '은', '을'
+  '이', '은', '을', '에', '에서', '으로'
 }
 
 VOWEL_ENDING_PARTICLES = {
-  '가', '는', '를'
+  '가', '는', '를', '에', '에서', '로'
 }
 
 # source: https://github.com/JDongian/python-jamo/blob/master/jamo/jamo.py

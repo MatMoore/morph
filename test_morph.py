@@ -4,8 +4,8 @@ from morph import morph_noun, ends_in_vowel
 @pytest.mark.parametrize(
   'input,expected',
   [
-    ('사람', {'사람이', '사람은', '사람을'}),
-    ('차', {'차가', '차는', '차를'}),
+    ('사람', {'사람이', '사람은', '사람을', '사람에', '사람에서', '사람으로'}),
+    ('차', {'차가', '차는', '차를', '차에', '차에서', '차로'}),
   ]
 )
 def test_morph_noun(input, expected):
