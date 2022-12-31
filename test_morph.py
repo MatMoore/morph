@@ -1,15 +1,12 @@
 import pytest
 from morph import morph_noun, ends_in_vowel
 
-
-testdata =   [
-  ('사람', {'사람이'}),
-  ('차', {'차가'}),
-]
-
 @pytest.mark.parametrize(
   'input,expected',
-  testdata
+  [
+    ('사람', {'사람이', '사람은', '사람을'}),
+    ('차', {'차가', '차는', '차를'}),
+  ]
 )
 def test_morph_noun(input, expected):
   assert morph_noun(input) == expected
