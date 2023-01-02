@@ -9,7 +9,7 @@ For example, the sentence "우리는 오늘 동해로 간다" contains
 - "동해로" which is a combination of "동해" plus the particle "로"
 
 ## Install
-- `pip install morph_po`
+- `pip install morph_ko`
 
 ## Usage
 
