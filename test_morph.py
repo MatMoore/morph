@@ -1,5 +1,5 @@
 import pytest
-from morph import morph_noun, ends_in_vowel
+from morph_ko import morph_noun, ends_in_vowel
 
 @pytest.mark.parametrize(
   'input,expected',

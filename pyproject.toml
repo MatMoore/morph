@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "morph"
+name = "morph_ko"
 version = "0.1.0"
 description = "Utility for generating variations of Korean words"
 authors = ["Mat Moore <matmoore@users.noreply.github.com>"]
